@@ -34,6 +34,13 @@ public class ThemeParkTest {
         assertEquals(1, visitor.visitedAttractionsCount());
     }
 
+//    @Test
+//    public void canGetAllReviewed() {
+//
+//
+//    }
+
+    
 
 
 }

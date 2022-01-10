@@ -5,6 +5,8 @@ import attractions.Dodgems;
 import behaviours.IReviewed;
 import people.Visitor;
 
+import java.util.ArrayList;
+
 public class ThemePark implements IReviewed {
 
     private String name;
@@ -27,4 +29,6 @@ public class ThemePark implements IReviewed {
         attraction.incrementVisitCount();
         visitor.visitedAttraction(attraction);
     }
+
+
 }

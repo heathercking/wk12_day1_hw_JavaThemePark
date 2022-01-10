@@ -37,4 +37,5 @@ public class VisitorTest {
         visitor.visitedAttraction(dodgems);
         assertEquals(1, visitor.visitedAttractionsCount());
     }
+
 }
