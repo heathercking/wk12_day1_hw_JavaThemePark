@@ -11,7 +11,7 @@ public class ParkTest {
 
     @Before
     public void setUp() throws Exception {
-        park = new Park("Leafy Meadows", 9);
+        park = new Park("Leafy Meadows", 9, 0);
     }
 
     @Test

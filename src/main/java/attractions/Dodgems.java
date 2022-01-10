@@ -5,8 +5,8 @@ import people.Visitor;
 
 public class Dodgems extends Attraction implements ITicketed {
 
-    public Dodgems(String name, int rating) {
-        super(name, rating);
+    public Dodgems(String name, int rating, int visitCount) {
+        super(name, rating, visitCount);
     }
 
     public double defaultPrice() {

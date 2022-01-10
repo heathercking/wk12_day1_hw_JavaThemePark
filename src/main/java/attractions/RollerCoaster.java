@@ -5,8 +5,8 @@ import people.Visitor;
 
 public class RollerCoaster  extends Attraction implements ITicketed {
 
-    public RollerCoaster(String name, int rating) {
-        super(name, rating);
+    public RollerCoaster(String name, int rating, int visitCount) {
+        super(name, rating, visitCount);
     }
 
     public boolean isOldEnough(Visitor visitor) {

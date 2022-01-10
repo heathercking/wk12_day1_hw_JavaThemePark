@@ -13,7 +13,7 @@ public class PlaygroundTest {
 
     @Before
     public void setUp() throws Exception {
-        playground = new Playground("Fun Zone", 7);
+        playground = new Playground("Fun Zone", 7, 0);
         visitor = new Visitor(14, 1.2, 40.0);
         visitor2 = new Visitor(16, 1.2, 40.0);
     }
