@@ -1,6 +1,9 @@
 package themePark;
 
+import attractions.Attraction;
+import attractions.Dodgems;
 import behaviours.IReviewed;
+import people.Visitor;
 
 public class ThemePark implements IReviewed {
 
@@ -20,4 +23,8 @@ public class ThemePark implements IReviewed {
         return rating;
     }
 
+    public void visit(Attraction attraction, Visitor visitor) {
+        attraction.incrementVisitCount();
+        visitor.visitedAttraction(attraction);
+    }
 }

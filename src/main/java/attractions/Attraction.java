@@ -32,4 +32,8 @@ public abstract class Attraction extends ThemePark {
     public int getVisitCount() {
         return visitCount;
     }
+
+    public void incrementVisitCount() {
+        this.visitCount += 1;
+    }
 }
